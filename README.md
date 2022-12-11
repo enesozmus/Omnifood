@@ -26,16 +26,18 @@
 
 ## The rise of Omnifood
 
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-1.png" alt="rising-1">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-1.png" width="1728" height="936" alt="rising-1">
 </br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-2.png" alt="rising-2">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-2.png" width="1728" height="936" alt="rising-2">
 </br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-3.png" alt="rising-3">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-3.png" width="1728" height="936" alt="rising-3">
 </br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-4.png" alt="rising-4">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-4.png" width="1728" height="936" alt="rising-4">
 </br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-5.png" alt="rising-5">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-5.png" width="1728" height="936" alt="rising-5">
 </br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-6.png" alt="rising-6">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-6.png" width="1728" height="936" alt="rising-6">
 </br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-7.png" alt="rising-7">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-7.png" width="1728" height="936" alt="rising-7">
+</br>
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-7.png" width="1728" height="936" alt="rising-8">
