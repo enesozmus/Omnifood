@@ -1,0 +1,112 @@
+html {
+  /*
+    default => font-size: 16px;
+    1 rem = 16px
+  */
+  /* 
+    And so then one rem will no longer be 16 pixels but it will instead be 10 pixels.
+    1 rem = 10 px
+
+    ♫ Then you basically see that the entire design has shrunk by a factor of 62.5%. 
+    ♫ And that's because 10 divided by 16 is 62.5%.
+    ♫ And so maybe you can start to see why this will be really, really handy/useful when we build responsive layouts.
+    ♫ We can simply change the font size up here in the html{} and that will then shrink everything down a little bit.
+  */
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting - We did actually respect the user's font size setting. */
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-text-box {
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 2rem;
+  text-decoration: none;
+
+  padding: 1.6rem 3.2rem;
+  border-radius: 1rem;
+
+  transition: background-color 0.4s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #ef711f;
+  color: #fff;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  color: #555;
+  /* border: 0.3rem solid #fff; */
+  box-shadow: inset 0 0 0 0.3rem #fff;
+}
+
+.hero-img-box {
+}
+.hero-img {
+  width: 100%;
+}
