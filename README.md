@@ -37,3 +37,5 @@
 <img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-5.png" alt="rising-5">
 </br>
 <img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-6.png" alt="rising-6">
+</br>
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-7.png" alt="rising-7">
