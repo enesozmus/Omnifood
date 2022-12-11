@@ -11,7 +11,7 @@
 
 </br>
 
-<img src="https://github.com/enesozmus/FinalJourney/blob/master/img/omnifood.png" alt="omnifood">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/omnifood.png" alt="omnifood">
 
 ## Responsive Design Principles
 
@@ -22,14 +22,18 @@
 
 </br>
 
-<img src="https://github.com/enesozmus/FinalJourney/blob/master/img/responsive.png" alt="responsive">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/responsive.png" alt="responsive">
 
 ## The rise of Omnifood
 
-<img src="https://github.com/enesozmus/FinalJourney/blob/master/img/rising/rising-1.png" alt="rising-1">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-1.png" alt="rising-1">
 </br>
-<img src="https://github.com/enesozmus/FinalJourney/blob/master/img/rising/rising-2.png" alt="rising-2">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-2.png" alt="rising-2">
 </br>
-<img src="https://github.com/enesozmus/FinalJourney/blob/master/img/rising/rising-3.png" alt="rising-3">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-3.png" alt="rising-3">
 </br>
-<img src="https://github.com/enesozmus/FinalJourney/blob/master/img/rising/rising-4.png" alt="rising-4">
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-4.png" alt="rising-4">
+</br>
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-5.png" alt="rising-5">
+</br>
+<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-6.png" alt="rising-6">
