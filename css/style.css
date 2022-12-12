@@ -103,15 +103,6 @@ body {
 .hero-text-box {
 }
 
-.heading-primary {
-  font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-}
-
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
@@ -206,7 +197,6 @@ body {
 /**************************/
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
 }
 
 .section-how div div {
@@ -218,16 +208,3 @@ body {
 .step-img-box {
   width: 50%;
 }
-
-/* .section-how div:nth-child(1) {
-  background-color: aqua;
-}
-.section-how div:nth-child(2) {
-  background-color: palevioletred;
-}
-.section-how div:nth-child(3) {
-  background-color: purple;
-}
-.section-how div:nth-child(4) {
-  background-color: greenyellow;
-} */
