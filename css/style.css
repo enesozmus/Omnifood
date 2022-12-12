@@ -100,8 +100,6 @@ body {
   align-items: center;
 }
 
-/* hero-text-box */
-/* hero-text-box */
 .hero-text-box {
 }
 
@@ -194,8 +192,6 @@ body {
   color: #cf711f;
   font-weight: 700;
 }
-/* hero-text-box */
-/* hero-text-box */
 
 .hero-img-box {
   display: flex;
@@ -204,3 +200,30 @@ body {
 .hero-img {
   width: 100%;
 }
+
+/**************************/
+/* HOW IT WORKS SECTION */
+/**************************/
+.section-how {
+  padding: 9.6rem 0;
+  background-color: orangered;
+}
+
+.section-how div div {
+  padding: 10rem;
+  font-size: 50px;
+  background-color: #333;
+}
+
+/* .section-how div:nth-child(1) {
+  background-color: aqua;
+}
+.section-how div:nth-child(2) {
+  background-color: palevioletred;
+}
+.section-how div:nth-child(3) {
+  background-color: purple;
+}
+.section-how div:nth-child(4) {
+  background-color: greenyellow;
+} */
