@@ -7,7 +7,12 @@
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--center-v {
+  /* align-items: center; */
 }
 
 .grid--2-cols {
@@ -24,7 +29,8 @@
 
 /* h1, h2, span */
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
   color: #333;
   /* color: #45260a; */
   /* color: #343a40; */
