@@ -1,5 +1,5 @@
 /**************************/
-/* HEADER */
+/* HEADER SECTION */
 /**************************/
 .header {
   display: flex;
@@ -30,12 +30,10 @@
   font-size: 1.8rem;
   transition: all 0.4s;
 }
-
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cf711f;
 }
-
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
@@ -43,14 +41,13 @@
   color: #fff;
   background-color: #e67e22;
 }
-
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
 
 /**************************/
-/* HERO */
+/* HERO SECTION */
 /**************************/
 .section-hero {
   background-color: #fdf2e9;
@@ -65,9 +62,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   align-items: center;
-}
-
-.hero-text-box {
 }
 
 .hero-description {
@@ -88,28 +82,21 @@
 
   transition: background-color 0.4s;
 }
-
 .btn--full:link,
 .btn--full:visited {
   background-color: #e67e22;
   color: #fff;
 }
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
-
 .btn--full:hover,
 .btn--full:active {
   background-color: #ef711f;
   color: #fff;
 }
-
 .btn--outline:link,
 .btn--outline:visited {
   background-color: #fff;
   color: #555;
 }
-
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
@@ -119,7 +106,6 @@
 }
 
 .delivered-meals {
-  /* This time I'm actually using 'flex' and not 'grid' because here I don't really care about the size of the columns. */
   display: flex;
   align-items: center;
   gap: 1.6rem;
@@ -129,15 +115,13 @@
 .delivered-faces {
   display: flex;
 }
-
 .delivered-faces img {
   height: 4.8rem;
   width: 4.8rem;
+  border-radius: 50%;
   margin-right: -1.6rem; /*üst üste getirme*/
   border: 3px solid #fdf2e9;
-  border-radius: 50%;
 }
-
 .delivered-faces img:last-child {
   margin: 0;
 }
@@ -151,12 +135,36 @@
   font-weight: 700;
 }
 
-.hero-img-box {
-  display: flex;
-}
-
 .hero-img {
   width: 100%;
+}
+
+/**************************/
+/* FEATURED IN SECTION */
+/**************************/
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
 
 /**************************/
@@ -188,12 +196,10 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  position: absolute;
-
   content: "";
   display: block;
   border-radius: 50%;
-
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -208,16 +214,16 @@
 }
 
 .step-img-box::after {
-  background-color: #fae5d3;
   width: 45%;
   padding-bottom: 45%;
-
+  background-color: #fae5d3;
   z-index: -1;
 }
 
 .step-img {
   width: 35%;
 }
+
 /**************************/
 /* MEALS SECTION */
 /**************************/

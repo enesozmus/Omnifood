@@ -12,7 +12,7 @@
 }
 
 .grid--center-v {
-  /* align-items: center; */
+  align-items: center;
 }
 
 .grid--2-cols {
@@ -66,3 +66,7 @@
   letter-spacing: 0.75px;
 }
 /* h1, h2, span */
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
