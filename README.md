@@ -36,23 +36,3 @@
 > - How to use common components and layout patterns for professional website design and development
 > - Developer skills such as reading documentation, debugging, and using professional tools
 > - How to find and use free design assets such as images, fonts, and icons
-
-## The rise of Omnifood
-
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-1.png" alt="rising-1">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-2.png" alt="rising-2">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-3.png" alt="rising-3">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-4.png" alt="rising-4">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-5.png" alt="rising-5">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-6.png" alt="rising-6">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-7.png" alt="rising-7">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-8.png" alt="rising-8">
-</br>
-<img src="https://github.com/enesozmus/ResponsiveRealWorldWebsite/blob/master/img/rising/rising-9.png" alt="rising-9">
