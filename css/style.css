@@ -54,21 +54,6 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
-/* start - How Media Queries Work? */
-/* How Media Queries Work? */
-@media (max-width: 1215px) {
-  .section-hero {
-    background-color: red;
-  }
-}
-@media (max-width: 857px) {
-  .section-hero {
-    background-color: green;
-  }
-}
-/* How Media Queries Work? */
-/* end - How Media Queries Work? */
-
 .hero {
   max-width: 130rem;
   margin: 0 auto;
