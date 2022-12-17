@@ -8,6 +8,7 @@
   height: 9.6rem;
   padding: 0 4.8rem;
   background-color: #fdf2e9;
+  position: relative;
 }
 
 .logo {
@@ -44,6 +45,21 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+.btn-mobile-nav {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /**************************/
@@ -502,11 +518,6 @@
 
 .cta-form input::placeholder {
   color: #aaa;
-}
-
-.cta *:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
 
 .cta-img-box {

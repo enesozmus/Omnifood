@@ -1,3 +1,39 @@
+html {
+  /*
+    default => font-size: 16px;
+    1 rem = 16px
+  */
+  /* 
+    And so then one rem will no longer be 16 pixels but it will instead be 10 pixels.
+    1 rem = 10 px
+
+    ♫ Then you basically see that the entire design has shrunk by a factor of 62.5%. 
+    ♫ And that's because 10 divided by 16 is 62.5%.
+    ♫ And so maybe you can start to see why this will be really, really handy/useful when we build responsive layouts.
+    ♫ We can simply change the font size up here in the html{} and that will then shrink everything down a little bit.
+  */
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting - We did actually respect the user's font size setting. */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+/* container and grid-system */
 .container {
   max-width: 120rem;
   padding: 0 3.2rem;
@@ -24,6 +60,7 @@
   align-items: center;
 }
 
+/* heading */
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -56,13 +93,7 @@
   letter-spacing: 0.75px;
 }
 
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
-.margin-bottom-md {
-  margin-bottom: 4.8rem !important;
-}
-
+/* link */
 .link:link,
 .link:visited {
   display: inline-block;
@@ -78,6 +109,7 @@
   border-bottom: 1px solid transparent;
 }
 
+/* list */
 .list {
   list-style: none;
   display: flex;
@@ -97,9 +129,72 @@
   color: #e67e22;
 }
 
+/* margin */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+/* button */
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* transition: background-color 0.4s; */
+  transition: all 0.4s;
+}
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+
+  /* border: 3px solid #fff; */
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+/* other */
 .center-text {
   text-align: center;
 }
 strong {
   font-weight: 500;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }
