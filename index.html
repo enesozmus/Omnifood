@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- description -->
+  <meta name="description"
+    content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs." />
+  <!-- description -->
   <!--
     Now, before we actually write a single media query for our page...
     we first need to ensure that our HTML has one very important line and that is this one here.
@@ -11,9 +15,16 @@
   -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- title-icon -->
+  <link rel="icon" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <title>Responsive Web Design</title>
+  <!-- title-icon -->
+
   <!--CSS CSS CSS-->
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/queries.css" />
   <link rel="stylesheet" href="css/reusable.css" />
   <!-- queries -->
   <link rel="stylesheet" href="css/queries/queries.css" />
@@ -34,11 +45,6 @@
   <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
   <script defer src="js/script.js"></script>
   <!-- JavaScript -->
-
-  <!--Title-->
-  <title>Responsive Web Design</title>
-  <!--Title-->
-
 </head>
 
 <body>
@@ -94,8 +100,15 @@
         </div>
         <!---->
         <div class="hero-img-box">
-          <img src="img/hero.png" alt="Woman enjoying food, meals in storage container, and food bowls on a table"
-            class="hero-img">
+          <!-- <img src="img/hero.png" alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+            class="hero-img"> -->
+          <picture>
+            <source srcset="img/hero.webp" type="image/webp" />
+            <source srcset="img/hero-min.png" type="image/png" />
+
+            <img src="img/hero-min.png" class="hero-img"
+              alt="Woman enjoying food, meals in storage container, and food bowls on a table" />
+          </picture>
         </div>
         <!---->
       </div>
