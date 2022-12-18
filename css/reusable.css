@@ -17,6 +17,9 @@ html {
   /* Percentage of user's browser font-size setting - We did actually respect the user's font size setting. */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* chrome://flags/#smooth-scrolling */
+  scroll-behavior: smooth;
 }
 * {
   padding: 0;
