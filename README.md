@@ -37,4 +37,4 @@
 > - How to make websites work on every possible mobile device (responsive design)
 > - How to use common components and layout patterns for professional website design and development
 > - Developer skills such as reading documentation, debugging, and using professional tools
-> - How to find and use free design assets such as images, fonts, and icons
+> - How to find and use free design assets such as images, fonts, and icons.
